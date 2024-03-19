@@ -1,4 +1,4 @@
-# GridPlay Login
+# GridPlay ONE Account
 
 ```bash
 composer require gridplay/gpaone
