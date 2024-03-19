@@ -1,0 +1,28 @@
+{
+    "name": "gridplay/gpaone",
+    "description": "GridPlay OAuth2 Provider for Laravel Socialite",
+    "license": "MIT",
+    "keywords": [
+        "gridplay",
+        "laravel",
+        "oauth",
+        "provider",
+        "socialite"
+    ],
+    "authors": [
+        {
+            "name": "Christopher Strachan",
+            "email": "chrisx84@live.ca"
+        }
+    ],
+    "require": {
+        "php": "^8.2",
+        "ext-json": "*",
+        "socialiteproviders/manager": "^4.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "GPAONE\\": ""
+        }
+    }
+}
