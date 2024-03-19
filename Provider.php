@@ -18,7 +18,7 @@ class Provider extends AbstractProvider {
     }
     protected function getUserByToken($token) {
         $response = $this->getHttpClient()->get(
-            'https://gpa.one/api/users',
+            'https://gpa.one/api/user',
             [
                 RequestOptions::HEADERS => [
                     'Authorization' => 'Bearer '.$token,
