@@ -51,7 +51,12 @@ You should now be able to use the provider like you would regularly use Socialit
 ```php
 return Socialite::driver('gpaone')->redirect();
 ```
-
+```php
+$user = Socialite::driver('gpaone')->user();
+$gpid = $user->id;
+$grid = $user->grid;
+// etc.
+```
 ### Returned User fields
 
 - ``id``
