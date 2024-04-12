@@ -1,9 +1,5 @@
 # GridPlay ONE Account
 
-```bash
-composer require gridplay/gpaone
-```
-
 ## Installation & Basic Usage
 
 To use first install with composer
@@ -17,7 +13,9 @@ To use first install with composer
         "gridplay/gpaone": "dev-main",
     }
 ```
-
+```sh
+composer update
+```
 ### Add configuration to `config/services.php`
 
 ```php
