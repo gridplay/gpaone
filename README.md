@@ -6,7 +6,17 @@ composer require gridplay/gpaone
 
 ## Installation & Basic Usage
 
-Please see the [Base Installation Guide](https://socialiteproviders.com/usage/), then follow the provider specific instructions below.
+To use first install with composer
+```json
+    "repositories": [{
+            "type": "vcs", 
+            "url": "https://github.com/gridplay/gpaone"
+        }
+    ],
+    "require": {
+        "gridplay/gpaone": "dev-main",
+    }
+```
 
 ### Add configuration to `config/services.php`
 
