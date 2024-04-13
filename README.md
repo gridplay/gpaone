@@ -47,9 +47,12 @@ In your Providers/AppServiceProvider.php put the following in the boot function
 ```php
 use Illuminate\Support\Facades\Event;
 use \GPAONE\Provider as GpaOneProvider;
-Event::listen(function (\SocialiteProviders\Manager\SocialiteWasCalled $event) {
-    $event->extendSocialite('gpaone', GpaOneProvider::class);
-});
+    public function boot(): void
+    {
+        Event::listen(function (\SocialiteProviders\Manager\SocialiteWasCalled $event) {
+            $event->extendSocialite('gpaone', GpaOneProvider::class);
+        });
+    }
 ```
 
 ### Usage
@@ -71,3 +74,4 @@ $grid = $user->grid;
 - ``grid``
 - ``name``
 - ``uuid``
+- ``isEmployee``

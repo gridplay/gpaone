@@ -33,7 +33,8 @@ class Provider extends AbstractProvider {
             'id'   => $user['id'],
             'name' => $user['name'],
             'grid' => $user['grid'],
-            'uuid' => $user['uuid']
+            'uuid' => $user['uuid'],
+            'isEmployee' => $user['isEmployee']
         ]);
     }
 }
