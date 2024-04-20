@@ -74,4 +74,5 @@ $grid = $user->grid;
 - ``grid``
 - ``name``
 - ``uuid``
+- ``avatar``
 - ``isEmployee``
