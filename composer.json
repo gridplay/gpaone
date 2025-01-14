@@ -7,7 +7,8 @@
         "laravel",
         "oauth",
         "provider",
-        "socialite"
+        "socialite",
+        "gpaone"
     ],
     "authors": [
         {
@@ -18,11 +19,25 @@
     "require": {
         "php": "^8.2",
         "ext-json": "*",
-        "socialiteproviders/manager": "^4.5"
+        "socialiteproviders/manager": "^4.5",
+        "guzzlehttp/guzzle": "7.*",
+        "illuminate/support": "11.*"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "GPa\\GPaServiceProvider"
+            ],
+            "aliases": {
+                "GPa": "GPa\\GPa",
+            }
+
+        }
     },
     "autoload": {
         "psr-4": {
-            "GPAONE\\": ""
+            "GPAONE\\": "",
+            "GPa\\": "src"
         }
     }
 }
