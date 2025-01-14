@@ -29,7 +29,7 @@
                 "GPa\\GPaServiceProvider"
             ],
             "aliases": {
-                "GPa": "GPa\\GPa",
+                "GPa": "GPa\\GPa"
             }
 
         }
