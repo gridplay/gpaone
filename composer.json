@@ -31,7 +31,6 @@
             "aliases": {
                 "GPa": "GPa\\GPa"
             }
-
         }
     },
     "autoload": {
