@@ -33,4 +33,11 @@ class GPa {
 		}
 		return false;
 	}
+	public static function isBanned($uuid) {
+		$r = self::senddata('put', 'isbanned', ['uuid' => $uuid]);
+		if (array_key_exists('isbanned', $r) && $r['isbanned'] == "true") {
+			return true;
+		}
+		return false;
+	}
 }
