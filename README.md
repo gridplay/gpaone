@@ -4,17 +4,16 @@
 
 To use first install with composer
 ```json
-    "repositories": [{
-            "type": "vcs", 
-            "url": "https://github.com/gridplay/gpaone"
-        }
-    ],
     "require": {
-        "gridplay/gpaone": "dev-main",
+        "gridplay/gpaone": "^1.0",
     }
 ```
 ```sh
 composer update
+```
+or do...
+```sh
+composer require gridplay/gpaone
 ```
 ### Add configuration to `config/services.php`
 
@@ -75,4 +74,5 @@ $grid = $user->grid;
 - ``name``
 - ``uuid``
 - ``avatar``
-- ``isEmployee``
+
+avatar field is a full URL to the user's profile picture
