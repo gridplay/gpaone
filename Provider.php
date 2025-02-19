@@ -34,8 +34,7 @@ class Provider extends AbstractProvider {
             'name' => $user['name'],
             'grid' => $user['grid'],
             'uuid' => $user['uuid'],
-            'avatar' => $user['avatar'],
-            'isEmployee' => $user['isEmployee']
+            'avatar' => $user['avatar']
         ]);
     }
 }
