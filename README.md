@@ -76,3 +76,22 @@ $grid = $user->grid;
 - ``avatar``
 
 avatar field is a full URL to the user's profile picture
+
+## Facade Features!
+
+### isPrem($uuid)
+```php
+$isprem = GPa::isPrem($uuid);
+```
+This lets you offer premium only stuff on your site for our GPPremium users
+
+### isBanned($uuid)
+```php
+$isbanned = GPa::isBanned($uuid);
+```
+This lets you denie access to your site/services if the sl avatar is banned in the GridPlay system
+
+Both functions returns a true/false boolean
+
+
+Any issues and/or comments please reach out to VenKellie.Resident in SecondLife
