@@ -74,8 +74,14 @@ $grid = $user->grid;
 - ``name``
 - ``uuid``
 - ``avatar``
+- ``avis``
 
 avatar field is a full URL to the user's profile picture
+
+avis is a list of SecondLife avatars linked to the GPaONE account
+List is...
+- slid
+- name
 
 ## Facade Features!
 
